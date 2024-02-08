@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid black; /* Black border at the bottom */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    z-index: 1000;
+}
+
+.fixed-header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Change the color as needed */
+}
+
+.fixed-header .navbar  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.fixed-header .navbar  a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #333; /* Change the color as needed */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cta-button {
+    background-color: #ff8800; /* Orange color for the button */
+    padding: 10px 20px;
+    margin-right: 60px;
+    border-radius: 20px;
+}
+
+.cta-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.first {
+    text-align: right;
+    padding: 50px;
+    background-color: black; /* Replace 'your-background-image.jpg' with the actual image file path */
+    background-size: cover;
+    color: white;
+ 
+    margin-top: 50px;
+}
+
+#fixedButton {
+    top: 50%;
+    margin-left: 1000px;
+    left: 0px; /* Adjusted to left */
+    transform: rotate(270deg); /* Adjusted to rotate clockwise */
+    background-color: #8B4513; /* Brown background color */
+    color: #fff;
+    padding: 10px 9px;
+    cursor: pointer;
+    border: none;
+    writing-mode: vertical-lr; /* Adjusted to vertical from left to right */
+
+    border-radius: 5px; /* Square shape with rounded corners */
+    z-index: 1001; /* Make sure it's above the popup */
+}
+
+
+
+.first p{
+    color: white;
+    font-size: 90px;
+    margin-right:100px;
+    margin-bottom: 40px;
+}
+
+.first .portfolio-button {
+    align-items: center;
+    margin-right:650px;
+    background-color: #ff8800;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Add the following CSS to center the button */
+#capabilities {
+    display: flex;
+    background-color: black; /* Add your preferred background color */
+    padding: 40px 20px;
+}
+
+.service-content {
+    width: 60%; /* Adjust the width as needed */
+    color:white;
+}
+
+.service-details {
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.service-details h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.service-details h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-details p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.service-image {
+    width: 50%; /* Adjust the width as needed */
+}
+
+.service-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add additional styling for responsiveness as needed */
+
+
+.stats1 {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+.stat-item1 {
+    text-align: center;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%; /* Adjust the width as needed */
+}
+
+.stat-item1 h3 {
+    color: white;
+}
+
+.stat-item1 p{
+
+    color:#808080; /* Slightly darker text color */
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#work {
+    background-color: black; /* Light gray background color */
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+}
+
+#work h2 {
+    color: white; /* Dark text color */
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+
+#work p {
+    color: white; /* Slightly darker text color */
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.container{
+    width:1300px;
+    margin:0px auto;
+}
+.gallery img{
+    width:30%;
+}
+/* Responsive styles using media queries */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack images vertically on smaller screens */
+        align-items: center;
+    }
+
+    .gallery img {
+        max-width: 100%; /* Ensure images don't exceed 100% width of their container */
+    }
+}
+#contact {
+    background-color: black; /* Light gray background color */
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+}
+
+#contact h2 {
+    color: white; /* Dark text color */
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+
+#contact p {
+    color:#808080; /* Slightly darker text color */
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%; /* Adjust the width as needed */
+}
+
+.stat-item h3 {
+    color: white;
+}
+
+#contact .stat-item p{
+
+    color:#808080; /* Slightly darker text color */
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+
+.containers {
+    display: flex;
+    
+    max-width: 1200px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#c1, #c2, #c3 {
+    width: 900px;
+    margin: 5px;
+    margin-right: 5px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: justify;
+}
+#c1 img {
+    max-width: 100%;
+    height: auto;
+    margin-left:20px;
+}
+#c1 p{
+    width: 400px;
+    color: #666;
+    text-align: justify;
+    margin-left:20px;
+    margin-right:15px;
+}
+#c2 h3{
+    color: white;
+}
+#c2 h4{
+    color: white;
+}
+#c2 p{
+    width: 400px;
+    color: #666;
+    text-align: justify;
+    margin-left:20px;
+    margin-right:15px;
+}   
+    
+#c3 h3{
+    width: 400px;
+    color: white;
+}
+#c3 ul li{
+    width: 400px;
+    color: #666;
+    text-align: justify;
+    margin-left:20px;
+}
+   
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+form label{
+    margin-bottom: 10px;
+    color:white;
+}
+
+form input {
+    margin-bottom: 5px;
+    color:black;
+}
+button{
+    background-color: white; /* Orange color for the button */
+    padding: 10px 20px;
+    margin-right: 60px;
+    border-radius: 20px;
+}
+
+
+
+
+
+/* Responsive styles using media queries */
+@media screen and (max-width: 768px) {
+    #work h2 {
+        font-size: 60px;
+    }
+
+    #work p {
+        font-size: 20px;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+
+    #contact h2 {
+        font-size: 60px;
+    }
+
+    #contact p {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .stat-item {
+        width: 100%;
+    }
+
+    #contact .stat-item p {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    #c1, #c2, #c3 {
+        width: 100%;
+        margin: 5px;
+        margin-right: 5px;
+        padding: 20px;
+        text-align: justify;
+        box-sizing: border-box;
+    }
+
+    #c1 img {
+        margin-left: 0;
+    }
+
+    #c1 p,
+    #c2 p,
+    #c3 h3,
+    #c3 ul li,
+    form label,
+    form input,
+    button {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    form {
+        padding: 10px;
+    }
+}
+
+
+
