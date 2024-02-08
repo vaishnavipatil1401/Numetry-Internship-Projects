@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins";
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    background: lightcoral;
+}
+
+.navbar h2{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navmenu li{
+    display: inline-block;
+}
+
+.navmenu li a{
+    color: #ffffff;
+    margin-right: 20px;
+    padding: 0px 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header{
+    background: #e7f0f3ac;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-header{
+    width: 75%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-header h5{
+    font-size: 22px;
+    color: green;
+    font-weight: 550;
+}
+
+.main-header h2{
+    font-size: 48px;
+    width: 340px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.main-header p{
+    margin-bottom: 60px;
+    color: purple;
+}
+
+.main-header .btn{
+    background: yellow;
+    border: 1px solid yellow;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: all .5s;
+}
+
+.main-header .btn:hover{
+    color: green;
+    background: #ffffff;
+}
+
+.main-header img{
+    width: 560px;
+    height: auto;
+}
+
+/* Categories */
+
+.cat-header{
+    text-align: center;
+    padding: 20px 0;
+}
+
+section{
+    width: 95%;
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+.cat-header h2{
+    font-size: 38px;
+    padding-bottom: 14px;
+}
+
+.cat-books{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.cat-books .books{
+    width: 360px;
+    height: auto;
+    padding: 20px 30px;
+    position: relative;
+    
+}
+
+.cat-books .books .book-img{
+    background-color: #e7f0f3ac;
+    padding: 18px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    
+    
+}
+
+.cat-books .books img{
+    width: 100%;
+    
+}
+
+.cat-books .books h4{
+    margin-top: 16px;
+    font-size: 22px;
+    position: relative;
+    left: 5%;
+}
+
+.cat-books .books p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+/* about section */
+
+.set.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+}
+
+.set-row img{
+    width: 680px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#about{
+    background: #e7f0f3ac;
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.set-row .about-content{
+    padding-left: 30px;
+    margin-bottom: 60px;
+}
+
+.set-row .about-content h2{
+    font-size: 42px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.set-row .about-content p{
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 46px;
+}
+
+.set-row .about-content .btn2{
+    background: green;
+    border: 1px solid green;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+
+.set-row .about-content .btn2:hover{
+    background: #ffffff;
+    color: #0b910b;
+}
+
+/* blog section */
+
+.blog-header{
+    text-align: center;
+    font-size: 35px;
+    padding: 40px 0;
+}
+.set-row .col{
+    padding-top: 20px;
+    width: 480px;
+    position: relative;
+}
+.set-row .col img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100%;
+}
+.set-row .col h4{
+    font-size: 24px;
+    padding: 12px 0;
+    margin-top: 14px;
+}
+.set-row .col p{
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+.set-row .col a{
+    font-size: 20px;
+    color: #000;
+}
+.set-row .col a:hover{
+    color: green;
+}
+.set-row .col .dates{
+    position: absolute;
+    top: 65%;
+    left: 5%;
+}
+.set-row .col .dates span{
+    background: #072019;
+    color: #ffffff;
+    padding: 12px 20px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
