@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  padding: 10px;
+  justify-content: flex-end;
+  background-color: lightcoral;
+  display: grid;
+  grid-template-columns: 600px 250px 80px 150px 120px;
+  gap: 10px;
+}
+.header .box1 h4 {
+  text-align: left;
+  background-color: lightcoral;
+  text-align: center;
+  font-weight: bold;
+  color: green;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.header1 {
+  border-radius: 5px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: underline;
+  font-size: 25px;
+  display: flex;
+  justify-content:space-around;
+  padding: 10px;
+  border: 2px solid #fff;
+  background-color: #fff; 
+  background-color: lightcoral;
+}
+
+.container1 ul {
+  border-radius: 5px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex; 
+  list-style: none; 
+  border: 2px solid #fff;
+  background-color: #fff; 
+  text-decoration: underline;
+}
+
+.container1 ul li {
+  margin-right: 10px; 
+
+}
+.head{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  background-color: lightcoral;
+  display: flex;
+  /*background-color: #fff; */
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+}
+
+.head h5{
+  left: 0px;
+  background-color: lightcoral;
+  border-radius: 5px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.head .btn-primary {
+  background-color: #007bff; 
+  border-color: #007bff; 
+}
+
+.headings {
+  margin-bottom: 20px; 
+  background-color: lightcoral;
+  background-color:aliceblue; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+}
+
+.headings h5{
+  padding: auto;
+  border-radius: 1px solid;
+  background-color: lightcoral;
+}
+
+.headings{
+  background-color: lightgreen;
+  color: blue;
+}
+.text-center{
+  color: green;
+  text-decoration: underline;
+}
+
+.details{
+  column-gap: 15px;
+  /*text-decoration-color: darkmagenta; */
+ /* background-color: lightcoral; */
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3,1fr);
+  row-gap: 15px;
+  border: 6px solid #fff;
+  /*background-color: #fff; /* Set background color */
+  border-radius: 4px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for form container */
+.form-container {
+  border: 3px solid #ccc; 
+ padding: 20px;
+  margin-bottom: 20px; 
+  /*background-color: lightcoral;*/
+}
+
+
